@@ -31,8 +31,9 @@ React + TypeScript + Vite
 ![image](https://github.com/vuilae/linkedin/assets/114561182/ee200638-239e-494b-b4e1-35eb4b7dc856)
 
 **Phantom Wallet Connection**
-![image](https://github.com/vuilae/linkedin/assets/114561182/c4c96fc4-bedc-442d-bad6-ede9975dc1b4)
-![image](https://github.com/vuilae/linkedin/assets/114561182/430d7c94-de71-4088-8505-2162758f2ada)
+![image](https://github.com/vuilae/linkedin/assets/114561182/5de57dc6-78a5-46b8-84af-8a0fdb17e8b7)
+![image](https://github.com/vuilae/linkedin/assets/114561182/abf79872-3fb9-4241-b303-b7d4afb268aa)
+
 
 
 ## Contributors
