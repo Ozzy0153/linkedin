@@ -9,8 +9,8 @@ React + TypeScript + Vite
 
 ## Available Routes
 - **Default Route:** `http://localhost:5173/`
-- **Chatbox Route:** `http://localhost:5173/chatbox/id`
 - **Profile Route:** `http://localhost:5173/profile/id`
+- **Login Route:** `http://localhost:5173/login`
   
 1. Light Mod
    ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/ab5f5504-562c-4d01-a5cc-a9448108ec4c)
@@ -22,12 +22,18 @@ React + TypeScript + Vite
    
  ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/f626ab1d-1a06-4582-9a41-232c885dfda1)
 
-4. Messages
-   
- ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/f3e01b80-6f08-462a-a2d8-fdc44d49394d)
-
-5. Post 
+4. Post 
 ![image](https://github.com/vuilae/web3-linkedIn/assets/114561182/d390f2ea-2450-4624-8baf-40d8931e3a52)
+
+
+## What is new for assignment 2:
+**Posts Section**
+![image](https://github.com/vuilae/linkedin/assets/114561182/ee200638-239e-494b-b4e1-35eb4b7dc856)
+
+**Phantom Wallet Connection**
+![image](https://github.com/vuilae/linkedin/assets/114561182/c4c96fc4-bedc-442d-bad6-ede9975dc1b4)
+![image](https://github.com/vuilae/linkedin/assets/114561182/430d7c94-de71-4088-8505-2162758f2ada)
+
 
 ## Contributors
 Bakeyeva Darina, Makambet Orazaly, Musabekova Zhansaya
