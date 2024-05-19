@@ -1,0 +1,90 @@
+.login {
+  background: #6c63ff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .card {
+  display: flex;
+  width: 580px;
+  background: #fff;
+  border: 1px #fff solid;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.login .card .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.login .card .right {
+  flex: 1;
+}
+.login .card .left p {
+  font-size: 0.9rem;
+}
+
+.login .card .left span {
+  text-transform: capitalize;
+  color: #6c63ff;
+}
+
+.login h2 {
+  color: #6c63ff;
+}
+
+.login .card .right {
+  flex: 1;
+  background: #6c63ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.login form input {
+  padding: 1rem 0;
+  width: 90%;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
+  color: #fff;
+}
+.login form input::placeholder {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.login form .btn {
+  color: #6c63ff;
+  margin-top: 1rem;
+}
+
+.icon-margin {
+  margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+  .login .card {
+    width: 90%;
+    flex-direction: column;
+  }
+  .login .card .right {
+    padding-bottom: 20px;
+  }
+}
+:root {
+  --color-primary: #6c63ff;
+  --text-color: #000;
+  --color-bg: #ececec;
+  --color-card: #fff;
+  --color-soft: #aaa;
+  --color-border: #d3d3d3;
+  --color-red: #ff0000;
+}

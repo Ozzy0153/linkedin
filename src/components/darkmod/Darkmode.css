@@ -1,0 +1,6 @@
+.dark-mod-icon:hover {
+  transform: scale(1.2);
+}
+.dark-mod-icon {
+  transition: 0.3 ease;
+}

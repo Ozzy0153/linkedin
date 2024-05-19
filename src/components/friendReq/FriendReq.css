@@ -1,0 +1,32 @@
+.request{
+    background: var(--color-card); margin-top: 1rem;
+    padding: 14px;
+    border-radius: 1rem;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+.request h5{
+    font-size: .91rem;
+}
+
+.Friend-Requests {
+    background: var(--color-card);
+    margin: 20px auto;
+    border-radius: 1rem;
+    padding: 14px;
+}
+
+.friend-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.request .action {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
