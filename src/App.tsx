@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './Layout';
+import Layout from './Layout/Layout';
 import CreateUserProfile from './components/CreateUserProfile';
 import Addpost from './components/addPost/Addpost';
 import AddComment from './components/AddComment';
-import Home from './components/Home';
+import Home from './components/home/Home';
 
 const App = () => {
     return (
