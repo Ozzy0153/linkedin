@@ -26,7 +26,11 @@ function Login() {
           </span>
         </div>
         <form className="right">
-          <input type="text" placeholder="username" />
+          <h2>LinkedIn</h2>
+          <p>
+            Lorem ipsum dolor dipisicing elit. Odit dignissimos maxime voluptate
+            laborum amet delectus asperiores quaerat deserunt nulla ea!
+          </p>
           <Wallet connector={connector} hooks={hooks} name="phantom" />
         </form>
       </div>

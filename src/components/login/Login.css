@@ -24,6 +24,10 @@
 }
 .login .card .right {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
 }
 .login .card .left p {
   font-size: 0.9rem;
@@ -34,8 +38,12 @@
   color: #6c63ff;
 }
 
-.login h2 {
+.login .left h2 {
   color: #6c63ff;
+}
+
+.login .right h2 {
+  color: #ffffff;
 }
 
 .login .card .right {
