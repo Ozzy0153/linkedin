@@ -1,0 +1,12 @@
+[programs.devnet]
+my_solana_app = "BcCbrFmHrG9jvARxaaWof4jCASzf1fadW5XAUrhM8tjc"
+
+[provider]
+cluster = "devnet"
+wallet = "/path/to/your/wallet/keypair.json"
+
+[scripts]
+test = "anchor test"
+
+[workspace]
+members = ["programs/*"]

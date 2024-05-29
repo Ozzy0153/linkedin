@@ -4,10 +4,10 @@ import { Web3ReactSelectedHooks } from "@web3-react/core";
 import { Connector } from "@web3-react/types";
 
 export default function Wallet({
-  connector,
-  hooks,
-  name,
-}: {
+                                 connector,
+                                 hooks,
+                                 name,
+                               }: {
   connector: Connector;
   hooks: Web3ReactSelectedHooks;
   name: string;
@@ -57,11 +57,11 @@ export default function Wallet({
   }, [error, navigate]);
 
   return (
-    <div>
-      <button className='btn' onClick={handleConnect} disabled={isActivating || isActive}>
-        {isActive ? "Connected" : "Connect"}
-      </button>
-      {error && <p>Error: {error.message}</p>}
-    </div>
+      <div>
+        <button className='btn' onClick={handleConnect} disabled={isActivating || isActive}>
+          {isActive ? "Connected" : "Connect"}
+        </button>
+        {error && <p>Error: {error.message}</p>}
+      </div>
   );
 }
