@@ -23,67 +23,67 @@ function Leftbar() {
   }, []);
 
   return (
-      <div className="leftBar">
-        <div className="left-container">
-          <div className="menu">
-            <Link to={`/profile/${currentUser.id}`}>
-              <div className="user">
-                <img src={currentUser.ProfieImage} alt="" />
-                <h4>{walletAddress}</h4>
-              </div>
-            </Link>
+    <div className="leftBar">
+      <div className="left-container">
+        <div className="menu">
+          <Link to="/profile/id">
+            <div className="user">
+              <img src={currentUser.ProfieImage} alt="" />
+              <h4>{walletAddress}</h4>
+            </div>
+          </Link>
 
-            <Link to="/">
-              <div className="item">
-                <img src={Friend} alt="" />
-                <h4>Friends</h4>
-              </div>
-            </Link>
-            <Link to="/">
-              <div className="item">
-                <img src={Groups} alt="" />
-                <h4>Groups</h4>
-              </div>
-            </Link>
-            <Link to="/">
-              <div className="item">
-                <img src={Market} alt="" />
-                <h4>Market</h4>
-              </div>
-            </Link>
-            <Link to="/">
-              <div className="item">
-                <img src={Watch} alt="" />
-                <h4>Watch</h4>
-              </div>
-            </Link>
-          </div>
+          <Link to="/">
+            <div className="item">
+              <img src={Friend} alt="" />
+              <h4>Friends</h4>
+            </div>
+          </Link>
+          <Link to="/">
+            <div className="item">
+              <img src={Groups} alt="" />
+              <h4>Groups</h4>
+            </div>
+          </Link>
+          <Link to="/">
+            <div className="item">
+              <img src={Market} alt="" />
+              <h4>Market</h4>
+            </div>
+          </Link>
+          <Link to="/">
+            <div className="item">
+              <img src={Watch} alt="" />
+              <h4>Watch</h4>
+            </div>
+          </Link>
+        </div>
 
-          <hr />
+        <hr />
 
-          <div className="menu">
-            <h4 className="others">Your Shortcuts</h4>
-            <Link to="/">
-              <div className="item">
-                <img src={gallery} alt="" />
-                <h4>Gallery</h4>
-              </div>
-            </Link>
-            <Link to="/">
-              <div className="item">
-                <img src={videos} alt="" />
-                <h4>Videos</h4>
-              </div>
-            </Link>
-            <Link to="/chatbox/id">
-              <div className="item">
-                <img src={message} alt="" />
-                <h4>Message</h4>
-              </div>
-            </Link>
-          </div>
+        <div className="menu">
+          <h4 className="others">Your Shortcuts</h4>
+          <Link to="/">
+            <div className="item">
+              <img src={gallery} alt="" />
+              <h4>Gallery</h4>
+            </div>
+          </Link>
+          <Link to="/">
+            <div className="item">
+              <img src={videos} alt="" />
+              <h4>Videos</h4>
+            </div>
+          </Link>
+          <Link to="/chatbox/id">
+            <div className="item">
+              <img src={message} alt="" />
+              <h4>Message</h4>
+            </div>
+          </Link>
         </div>
       </div>
+    </div>
   );
 }
 

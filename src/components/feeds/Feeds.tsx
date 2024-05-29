@@ -5,11 +5,11 @@ import HomeFeedData from "../../FackApis/HomeFeedData";
 
 function Feeds() {
   return (
-      <div className="feeds">
-        {HomeFeedData.map(fed => (
-            <Feed fed={fed} key={fed.id}/>
-        ))}
-      </div>
+    <div className="feeds">
+      {HomeFeedData.map(fed => (
+        <Feed fed={fed} key={fed.id}/>
+      ))}
+    </div>
   );
 }
 
